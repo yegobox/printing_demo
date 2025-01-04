@@ -346,10 +346,10 @@ packages:
     dependency: transitive
     description:
       name: brick_core
-      sha256: "19844d35ef97435d0d3095df7487b1175eaf3a57cd1c1e33397e63a9c01a891c"
+      sha256: "5e53019cd287b4d0a379e0bcb2f9508f5eb9cadce020721089fad88544065b38"
       url: "https://pub.dev"
     source: hosted
-    version: "1.3.0"
+    version: "1.4.0"
   brick_offline_first:
     dependency: transitive
     description:
@@ -394,10 +394,10 @@ packages:
     dependency: transitive
     description:
       name: brick_supabase
-      sha256: "27ea02d132e34b0770c1452d1ffcfd3c1ac645fb7d6879393a22f15bd8167de8"
+      sha256: "14dbe4038cfc1a3475021be77fa81e71bb4d59bec908be88daf5ea896ce3d25d"
       url: "https://pub.dev"
     source: hosted
-    version: "1.2.0"
+    version: "1.4.0"
   build:
     dependency: transitive
     description:
@@ -1345,7 +1345,7 @@ packages:
       path: "../../../apps/flipper"
       relative: true
     source: path
-    version: "1.170.4252223232936+1735749040"
+    version: "1.170.4252223232956+1735984827"
   flipper_services:
     dependency: "direct main"
     description:
@@ -1411,14 +1411,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.4.1"
-  flutter_carousel_slider:
-    dependency: transitive
-    description:
-      name: flutter_carousel_slider
-      sha256: "4cd0691b98ebbf8b40361e01779b3a211002c963d3709630e775fba699d3b821"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.0"
   flutter_chat_types:
     dependency: transitive
     description:
@@ -1534,10 +1526,10 @@ packages:
     dependency: transitive
     description:
       name: flutter_local_notifications
-      sha256: dbbfc185f0d7be9ebe4009dd405571cfdb4c07563ec382dfca84fa018431bcfa
+      sha256: f1b0f942fe79bb18e36df281fbefbf9bea4836e42d90da108b7e8ba74350903d
       url: "https://pub.dev"
     source: hosted
-    version: "19.0.0-dev.3"
+    version: "19.0.0-dev.4"
   flutter_local_notifications_linux:
     dependency: transitive
     description:
@@ -1558,10 +1550,10 @@ packages:
     dependency: transitive
     description:
       name: flutter_local_notifications_windows
-      sha256: "181b45d250e468f1bed6a9b7bbd43e2438c3b71be206fa15d6e27ae4444b8212"
+      sha256: "282bb8afc16e3867b3a251b28c20af6eee00bd448444590cf203740afa4419e4"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0-dev.2"
+    version: "1.0.0-dev.3"
   flutter_localization:
     dependency: transitive
     description:
