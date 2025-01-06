@@ -59,10 +59,10 @@ mixin SaveFile {
   /// rasterizing each page, generating a filename, writing the PNG data,
   /// and incrementing the page count.
   Future<void> savePdfAsImage(Uint8List pdfData) async {
-    Map<Permission, PermissionStatus> statuses =
-        await [Permission.storage, Permission.manageExternalStorage].request();
-    if (statuses[Permission.storage]?.isGranted ?? false) {
-      Directory? dir = await getApplicationDocumentsDirectory();
+    // Map<Permission, PermissionStatus> statuses =
+    //     await [Permission.storage, Permission.manageExternalStorage].request();
+    // if (statuses[Permission.storage]?.isGranted ?? false) {
+      Directory? dir = await getApplicationSupportDirectory();
       final path = dir.path;
       var i = 0;
       await for (final page in Printing.raster(pdfData, dpi: 1120)) {
@@ -72,7 +72,7 @@ mixin SaveFile {
         await file.writeAsBytes(png);
         i++;
       }
-    }
+    // }
   }
 
   /// Shares the provided PDF data by opening the system share sheet.
