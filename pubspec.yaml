@@ -19,7 +19,7 @@ dependencies:
   qr_flutter: ^4.0.0
   flipper_services: any
   universal_platform: ^1.0.0+1
-  path_provider: ^2.1.4
+  path_provider: ^2.1.5
   path: ^1.8.1
   permission_handler: ^11.3.1
   image: ^4.0.17

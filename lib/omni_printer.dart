@@ -212,7 +212,7 @@ class OmniPrinter with SaveFile implements Printable {
       if (receiptType == "NR" || receiptType == "CR" || receiptType == "TR") {
         displayTotalTaxB = "-${value.toNoCurrencyFormatted()}";
       } else {
-        displayTotalTaxB = "${value.toNoCurrencyFormatted()}";
+        displayTotalTaxB = value.toNoCurrencyFormatted();
       }
 
       rows.add(

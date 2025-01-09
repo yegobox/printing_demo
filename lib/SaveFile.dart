@@ -7,7 +7,6 @@ import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart';
 import 'package:printing/printing.dart';
 import 'package:universal_platform/universal_platform.dart';
-import 'package:permission_handler/permission_handler.dart';
 import 'package:path/path.dart' as p;
 import 'package:talker_flutter/talker_flutter.dart';
 
