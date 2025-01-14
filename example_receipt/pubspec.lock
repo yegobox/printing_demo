@@ -394,10 +394,10 @@ packages:
     dependency: transitive
     description:
       name: brick_supabase
-      sha256: "14dbe4038cfc1a3475021be77fa81e71bb4d59bec908be88daf5ea896ce3d25d"
+      sha256: "93e62c14399ddf5d5598f69c3aafc7c5507b4b0d5779eb0a71426afe062c6aec"
       url: "https://pub.dev"
     source: hosted
-    version: "1.4.0"
+    version: "1.4.1+1"
   build:
     dependency: transitive
     description:
@@ -1337,7 +1337,7 @@ packages:
       path: "../../../apps/flipper"
       relative: true
     source: path
-    version: "1.170.4252223232983+1736328502"
+    version: "1.170.4252223232999+1736846168"
   flipper_services:
     dependency: "direct main"
     description:
