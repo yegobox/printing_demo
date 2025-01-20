@@ -186,6 +186,7 @@ class _MyHomePageState extends State<MyHomePage> {
       items: List.from(
         [
           TransactionItem(
+            lastTouched: DateTime.now(),
             splyAmt: 1,
             itemNm: "1",
             discount: 0,
@@ -198,6 +199,7 @@ class _MyHomePageState extends State<MyHomePage> {
             price: 10.0,
           ),
           TransactionItem(
+            lastTouched: DateTime.now(),
             splyAmt: 1,
             itemNm: "1",
             discount: 0,
@@ -210,6 +212,7 @@ class _MyHomePageState extends State<MyHomePage> {
             price: 10.0,
           ),
           TransactionItem(
+            lastTouched: DateTime.now(),
             splyAmt: 1,
             itemNm: "1",
             discount: 0,
