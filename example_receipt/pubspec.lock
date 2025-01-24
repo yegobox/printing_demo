@@ -354,10 +354,10 @@ packages:
     dependency: transitive
     description:
       name: brick_offline_first
-      sha256: "95ab127c19c4856c86453171589956d5163be770cb0b21015d476901523d45af"
+      sha256: "10bbd484a0b6ee35ce9ac3caf9563b7f3219c8a357eae89985a02d928e1932f6"
       url: "https://pub.dev"
     source: hosted
-    version: "3.3.0"
+    version: "3.4.0"
   brick_offline_first_with_rest:
     dependency: transitive
     description:
@@ -370,10 +370,10 @@ packages:
     dependency: transitive
     description:
       name: brick_offline_first_with_supabase
-      sha256: f977a6f2b2135081b5d4c27fbae941270ebd06ce4685b5fbd64368fdeeb6281d
+      sha256: b11e0d26e896432f09b1b96c1f3a138880a534ae0c301dc5a2040cd0a8338ffc
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.1"
+    version: "1.3.0"
   brick_rest:
     dependency: transitive
     description:
@@ -1252,6 +1252,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.1"
+  fl_chart:
+    dependency: transitive
+    description:
+      name: fl_chart
+      sha256: "5276944c6ffc975ae796569a826c38a62d2abcf264e26b88fa6f482e107f4237"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.70.2"
   flex_color_scheme:
     dependency: transitive
     description:
@@ -1337,7 +1345,7 @@ packages:
       path: "../../../apps/flipper"
       relative: true
     source: path
-    version: "1.170.4252223233039+1737396328"
+    version: "1.170.4252223233056+1737726957"
   flipper_services:
     dependency: "direct main"
     description:
