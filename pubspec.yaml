@@ -27,7 +27,7 @@ dependencies:
   dotted_line: ^3.2.2
   talker_flutter: ^4.1.5
   sentry_flutter: ^8.10.1
-  syncfusion_flutter_pdf: ^26.2.14
+  syncfusion_flutter_pdf: ^28.1.41
   supabase_models: any
   
 dependency_overrides:
