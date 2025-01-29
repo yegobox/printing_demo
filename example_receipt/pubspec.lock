@@ -386,10 +386,10 @@ packages:
     dependency: transitive
     description:
       name: brick_sqlite
-      sha256: "679e2d6530d22c54a1bbd074f3a4218272087184273f135ed04d1cab16a1ad7d"
+      sha256: f6870c4c9f72241ad16065df942fb51f5ff832d58ea199f401b22348fc4ef7ac
       url: "https://pub.dev"
     source: hosted
-    version: "3.2.0"
+    version: "3.2.2"
   brick_supabase:
     dependency: transitive
     description:
@@ -1345,7 +1345,7 @@ packages:
       path: "../../../apps/flipper"
       relative: true
     source: path
-    version: "1.170.4252223233065+1737801318"
+    version: "1.170.4252223233075+1738063909"
   flipper_services:
     dependency: "direct main"
     description:
@@ -3220,10 +3220,10 @@ packages:
     dependency: "direct overridden"
     description:
       name: sqlite3
-      sha256: a72c68360757d25a528652f9679dac6e5f23bc52af76b74d4687a148d74e06db
+      sha256: "35d3726fe18ab1463403a5cc8d97dbc81f2a0b08082e8173851363fcc97b6627"
       url: "https://pub.dev"
     source: hosted
-    version: "2.6.1"
+    version: "2.7.2"
   sqlite3_flutter_libs:
     dependency: transitive
     description:
