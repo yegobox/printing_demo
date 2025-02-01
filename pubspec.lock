@@ -1265,7 +1265,7 @@ packages:
       path: "../../apps/flipper"
       relative: true
     source: path
-    version: "1.170.4252223233109+1738327055"
+    version: "1.170.4252223233127+1738355303"
   flipper_services:
     dependency: "direct main"
     description:
@@ -2334,6 +2334,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.0.2"
+  mock_supabase_http_client:
+    dependency: transitive
+    description:
+      name: mock_supabase_http_client
+      sha256: f78afef16035bef4f52897f4e46a60cf623be4251ed0624fa0713705b159e340
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.3+1"
   mockito:
     dependency: transitive
     description:
