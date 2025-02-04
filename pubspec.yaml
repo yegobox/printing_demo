@@ -33,10 +33,13 @@ dependencies:
 dependency_overrides:
   http: ^1.2.2
   meta: ^1.12.0
-  web: ^0.5.1
+  web: ^1.1.0
   sqlite3: ^2.7.2
+  device_info_plus: ^11.2.2
+  drift: ^2.24.0
+  
 dev_dependencies:
-  flutter_lints: ^2.0.0
+  flutter_lints: ^5.0.0
   build_runner: ^2.0.0
 
 flutter:
