@@ -599,7 +599,7 @@ packages:
     source: hosted
     version: "4.10.1"
   collection:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
       name: collection
       sha256: a1ace0a119f20aabc852d165077c036cd864315bd99b7eaa10a60100341941bf
@@ -838,13 +838,13 @@ packages:
     source: hosted
     version: "3.2.3"
   drift:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       name: drift
-      sha256: "76f23535e19a9f2be92f954e74d8802e96f526e5195d7408c1a20f6659043941"
+      sha256: "6acedc562ffeed308049f78fb1906abad3d65714580b6745441ee6d50ec564cd"
       url: "https://pub.dev"
     source: hosted
-    version: "2.24.0"
+    version: "2.18.0"
   dropdown_search:
     dependency: transitive
     description:
@@ -1337,7 +1337,7 @@ packages:
       path: "../../../apps/flipper"
       relative: true
     source: path
-    version: "1.170.4252223233157+1738693134"
+    version: "1.170.4252223233160+1738693661"
   flipper_services:
     dependency: "direct main"
     description:

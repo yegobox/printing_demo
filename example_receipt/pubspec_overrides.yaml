@@ -1,4 +1,4 @@
-# melos_managed_dependency_overrides: demo_ui_components,firestore_models,flipper_actionable,flipper_dashboard,flipper_infra,flipper_loading,flipper_localize,flipper_login,flipper_mocks,flipper_models,flipper_routing,flipper_rw,flipper_services,flipper_socials,flipper_ui,flowy_svg,flutter_form_bloc,flutter_slidable,flutter_statusbarcolor_ns,form_bloc,qr_flutter,receipt,scrollable_positioned_list,supabase_models,http,meta,web,sqlite3,device_info_plus,drift
+# melos_managed_dependency_overrides: demo_ui_components,firestore_models,flipper_actionable,flipper_dashboard,flipper_infra,flipper_loading,flipper_localize,flipper_login,flipper_mocks,flipper_models,flipper_routing,flipper_rw,flipper_services,flipper_socials,flipper_ui,flowy_svg,flutter_form_bloc,flutter_slidable,flutter_statusbarcolor_ns,form_bloc,qr_flutter,receipt,scrollable_positioned_list,supabase_models,http,meta,web,sqlite3,device_info_plus,drift,collection
 dependency_overrides:
   demo_ui_components:
     path: ../../../packages/demo_ui_components
@@ -53,4 +53,5 @@ dependency_overrides:
   web: ^1.1.0
   sqlite3: ^2.7.2
   device_info_plus: ^11.2.2
+  collection: ^1.19.0
   # drift: ^2.24.0
