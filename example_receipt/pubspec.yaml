@@ -59,7 +59,7 @@ dependency_overrides:
   web: ^1.1.0
   sqlite3: ^2.7.2
   device_info_plus: ^11.2.2
-  # drift: ^2.24.0
+  
   collection: ^1.19.0
 dev_dependencies:
   # The "flutter_lints" package below contains a set of recommended lints to
